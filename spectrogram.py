@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the audio file
-audio_file = 'music files\Gchord.mp3'
+audio_file = 'music files\guitarLoop.mp3'
 y, sr = librosa.load(audio_file)
 
 # Define a range of time for zooming into a specific section (for example, 30 to 60 seconds)

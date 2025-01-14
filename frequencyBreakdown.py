@@ -21,7 +21,7 @@ def frequency_to_note(freq):
     return f"{note}{octave}"
 
 # Load the audio file
-audio_file = 'music files/Gmajor.mp3'  # Replace with the path to your audio file
+audio_file = 'music files\juiceWrldRepeat.mp3'  # Replace with the path to your audio file
 y, sr = librosa.load(audio_file, sr=None)
 
 # Short-Time Fourier Transform (STFT)
